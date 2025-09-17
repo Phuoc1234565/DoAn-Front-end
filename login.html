@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập và Đăng ký</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="wrapper">
+      <div class="title-text">
+        <div class="title login">Đăng nhập</div>
+        <div class="title signup">Đăng ký</div>
+      </div>
+      <div class="form-container">
+      <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+          <label for="login" class="slide login"><a href="trangchu.html" class="button"></a>Đăng nhập</label>
+          <label for="signup" class="slide signup">Đăng ký</label>
+          <div class="slider-tab"></div>
+      </div>
+      <div class="form-inner">
+          <form action="#" class="login">
+              <div class="field">
+                <input type="text" placeholder="Tên đăng nhập" required>
+              </div>
+              <div class="field">
+                  <input type="password" placeholder="Mật khẩu" required>
+              </div>
+              <div class="pass-link"><a href="#">Quên mật khẩu ?</a></div>
+              <div class="field btn">
+                  <div class="btn-layer"></div>
+                    <input type="submit" value="Đăng nhập">
+                  </div>
+                    <div class="signup-link">Chưa có tài khoản ? <a href="#">Đăng ký ngay</a></div>
+          </form>
+          <form action="#" class="signup">
+            <div class="field">
+              <input type="text" placeholder="Tên đăng nhập" required>
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Mật khẩu" required>
+            </div>
+            <div class="field">
+                            <input type="password" placeholder="Nhập lại mật khẩu" required>
+            </div>
+                          <div class="field btn">
+                            <div class="btn-layer"></div>
+                            <input type="submit" value="Đăng ký">
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                <script  src="Script\script.js"></script>
+</body>  
